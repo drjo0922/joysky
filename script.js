@@ -3,10 +3,16 @@ document.getElementById("btn").addEventListener("click", async () => {
   output.innerHTML = "점치는 중...";
 
   try {
-    // Netlify Function 호출 (hexagrams.json은 클라이언트에서 직접 접근 불가)
     const res = await fetch("/.netlify/functions/getHexagram");
-    const data = await res.json();
 
+    // 응답 상태 확인
+    if (!res.ok) {
+      const errData = await res.json();
+      output.innerHTML = "에러 발생: " + errData.error;
+      return;
+    }
+
+    const data = await res.json();
     const { mainHex, changingLine, derivedHex } = data;
 
     // 본괘 출력
@@ -29,6 +35,7 @@ document.getElementById("btn").addEventListener("click", async () => {
 
     output.innerHTML = html;
   } catch (err) {
+    // 네트워크 오류나 JSON 파싱 오류 처리
     output.innerHTML = "에러 발생: " + err.message;
   }
 });

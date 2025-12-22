@@ -1,0 +1,9 @@
+[build]
+  # 정적 사이트 루트 (index.html, script.js가 있는 위치)
+  publish = "."
+
+  # Netlify Functions 폴더 위치
+  functions = "netlify/functions"
+
+# 필요하다면 빌드 명령어도 지정 가능
+# build.command = "npm run build"
