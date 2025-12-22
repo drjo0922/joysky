@@ -2579,10 +2579,10 @@ exports.handler = async function (event, context) {
     // 본괘 코드 복사
     let derivedCodeArr = mainHex.code.split("");
 
-    // lines 배열의 인덱스와 code 배열의 인덱스 매핑 (역순)
+    // lines 배열(초구~상구) ↔ code 문자열(상구~초구) 역순 매핑
     const codeIndex = mainHex.lines.length - 1 - changingLineIndex;
 
-    // 해당 자리 반전
+    // 해당 자리 반전 (양효 ↔ 음효)
     derivedCodeArr[codeIndex] =
       derivedCodeArr[codeIndex] === "1" ? "0" : "1";
 
@@ -2591,7 +2591,14 @@ exports.handler = async function (event, context) {
     // 지괘 찾기
     const derivedHex =
       hexagramsArr.find((hex) => hex.code === derivedCode) ||
-      { code: derivedCode, unicode: "?", title: "미등록 괘", alias: "", score: "0", description: "데이터 없음" };
+      {
+        code: derivedCode,
+        unicode: "?",
+        title: "미등록 괘",
+        alias: "",
+        score: "0",
+        description: "데이터 없음"
+      };
 
     return {
       statusCode: 200,
