@@ -16,21 +16,22 @@ document.getElementById("btn").addEventListener("click", async () => {
     const { mainHex, changingLine, derivedHex } = data;
 
     // 본괘 출력
-    let html = `<div class="hexagram">${mainHex.unicode}</div>
+    let html = `<h3>본괘</h3>
+                <div class="hexagram">${mainHex.unicode}</div>
                 <div>${mainHex.title} (${mainHex.alias})</div>
-                <div>길흉 점수: ${mainHex.score}</div>
+                <div>길함: ${mainHex.score}/5</div>
                 <div>${mainHex.description}</div>`;
 
     // 동효 출력
     html += `<h3>동효</h3>
-             <div class="line">${changingLine.position} - 길흉 점수: ${changingLine.score}</div>
+             <div class="line">${changingLine.position} - 길함: ${changingLine.score}/5</div>
              <div>${changingLine.description}</div>`;
 
     // 지괘 출력
     html += `<h3>지괘</h3>
              <div class="hexagram">${derivedHex.unicode}</div>
              <div>${derivedHex.title} (${derivedHex.alias})</div>
-             <div>길흉 점수: ${derivedHex.score}</div>
+             <div>길함: ${derivedHex.score}/5</div>
              <div>${derivedHex.description}</div>`;
 
     output.innerHTML = html;
