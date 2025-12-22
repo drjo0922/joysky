@@ -2588,21 +2588,24 @@ exports.handler = async function (event, context) {
 
     const derivedCode = derivedCodeArr.join("");
 
-    // 지괘 찾기
-    const derivedHex =
-      hexagramsArr.find((hex) => hex.code === derivedCode) ||
-      {
-        code: derivedCode,
-        unicode: "?",
-        title: "미등록 괘",
-        alias: "",
-        score: "0",
-        description: "데이터 없음"
-      };
+    // 지괘 찾기 (본괘에서 동효만 바뀐 코드로 검색)
+    const derivedHex = hexagramsArr.find((hex) => hex.code === derivedCode);
 
+    // 결과 반환
     return {
       statusCode: 200,
-      body: JSON.stringify({ mainHex, changingLine, derivedHex }),
+      body: JSON.stringify({
+        mainHex,
+        changingLine,
+        derivedHex: derivedHex || {
+          code: derivedCode,
+          unicode: "?",
+          title: "미등록 괘",
+          alias: "",
+          score: "0",
+          description: "데이터 없음"
+        }
+      }),
     };
   } catch (err) {
     return {
