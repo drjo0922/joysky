@@ -2579,9 +2579,12 @@ exports.handler = async function (event, context) {
     // 본괘 코드 복사
     let derivedCodeArr = mainHex.code.split("");
 
-    // 동효 위치에 해당하는 비트 반전
-    // 예: "1" → "0", "0" → "1"
-    derivedCodeArr[changingLineIndex] = derivedCodeArr[changingLineIndex] === "1" ? "0" : "1";
+    // lines 배열의 인덱스와 code 배열의 인덱스 매핑 (역순)
+    const codeIndex = mainHex.lines.length - 1 - changingLineIndex;
+
+    // 해당 자리 반전
+    derivedCodeArr[codeIndex] =
+      derivedCodeArr[codeIndex] === "1" ? "0" : "1";
 
     const derivedCode = derivedCodeArr.join("");
 
