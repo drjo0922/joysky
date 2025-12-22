@@ -2573,11 +2573,22 @@ exports.handler = async function (event, context) {
     const mainHex = hexagramsArr[Math.floor(Math.random() * hexagramsArr.length)];
 
     // 동효 무작위 선택
-    const changingLine =
-      mainHex.lines[Math.floor(Math.random() * mainHex.lines.length)];
+    const changingLineIndex = Math.floor(Math.random() * mainHex.lines.length);
+    const changingLine = mainHex.lines[changingLineIndex];
 
-    // 지괘 무작위 선택 (실제 주역 계산 로직은 더 복잡)
-    const derivedHex = hexagramsArr[Math.floor(Math.random() * hexagramsArr.length)];
+    // 본괘 코드 복사
+    let derivedCodeArr = mainHex.code.split("");
+
+    // 동효 위치에 해당하는 비트 반전
+    // 예: "1" → "0", "0" → "1"
+    derivedCodeArr[changingLineIndex] = derivedCodeArr[changingLineIndex] === "1" ? "0" : "1";
+
+    const derivedCode = derivedCodeArr.join("");
+
+    // 지괘 찾기
+    const derivedHex =
+      hexagramsArr.find((hex) => hex.code === derivedCode) ||
+      { code: derivedCode, unicode: "?", title: "미등록 괘", alias: "", score: "0", description: "데이터 없음" };
 
     return {
       statusCode: 200,
