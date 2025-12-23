@@ -3,14 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>주역점 홈페이지</title>
+  <!-- 모바일 화면 대응을 위한 뷰포트 설정 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body { font-family: sans-serif; margin: 20px; }
-    button { padding: 10px 20px; font-size: 16px; }
-    .result { margin-top: 20px; border: 1px solid #ccc; padding: 15px; }
-    .hexagram { font-size: 32px; margin-bottom: 10px; }
-    .alias { font-weight: bold; }
-    .lines { margin-top: 10px; }
-    .line { margin-bottom: 5px; }
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      font-size: 1.1em; /* 기본 글씨 크기 확대 */
+      line-height: 1.5;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 1.2em; /* 버튼 글씨 크게 */
+    }
+    .result {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      font-size: 1em;
+    }
+    .hexagram {
+      font-size: 2.5em; /* 스마트폰에서도 크게 보이도록 */
+      margin-bottom: 10px;
+    }
+    .alias {
+      font-weight: bold;
+    }
+    .lines {
+      margin-top: 10px;
+    }
+    .line {
+      margin-bottom: 8px;
+    }
+
+    /* 작은 화면일 때 글씨 크기 자동 확대 */
+    @media (max-width: 600px) {
+      body { font-size: 1.2em; }
+      button { font-size: 1.3em; }
+      .hexagram { font-size: 3em; }
+    }
   </style>
 </head>
 <body>
