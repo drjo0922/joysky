@@ -2574,25 +2574,19 @@ exports.handler = async function (event, context) {
     const mainHex = hexagramsArr[Math.floor(Math.random() * hexagramsArr.length)];
 
     // 2. 동효 무작위 선택 (0: 초효 ~ 5: 상효)
-    // lines 배열의 0번이 초효이므로 index가 곧 효의 위치입니다.
     const changingLineIndex = Math.floor(Math.random() * mainHex.lines.length);
     const changingLine = mainHex.lines[changingLineIndex];
 
     // 3. 지괘(변괘) 코드 생성
-    // code의 왼쪽이 초효이므로, changingLineIndex를 그대로 사용합니다.
     let derivedCodeArr = mainHex.code.split("");
-    
-    // 선택된 동효의 자리(0~5)를 반전 (1 <-> 0)
-    derivedCodeArr[changingLineIndex] = 
+    derivedCodeArr[changingLineIndex] =
       derivedCodeArr[changingLineIndex] === "1" ? "0" : "1";
-    
     const derivedCode = derivedCodeArr.join("");
 
     // 4. 지괘 찾기
-    // 생성된 derivedCode와 일치하는 괘를 DB에서 검색합니다.
     const derivedHex = hexagramsArr.find((hex) => hex.code.trim() === derivedCode);
 
-    // 5. 결과 반환
+    // 5. 결과 반환 (score를 명시적으로 포함)
     return {
       statusCode: 200,
       headers: {
@@ -2604,29 +2598,37 @@ exports.handler = async function (event, context) {
           alias: mainHex.alias,
           unicode: mainHex.unicode,
           code: mainHex.code,
-          description: mainHex.description
+          description: mainHex.description,
+          // 데이터에 score가 있으면 전달, 없으면 null
+          score: mainHex.score ?? null
         },
         changingLine: {
           position: changingLine.position, // 예: "초구"
-          description: changingLine.description
+          description: changingLine.description,
+          score: changingLine.score ?? null,
+          index: changingLineIndex // 필요시 클라이언트에서 활용
         },
-        derivedHex: derivedHex ? {
-          title: derivedHex.title,
-          alias: derivedHex.alias,
-          unicode: derivedHex.unicode,
-          code: derivedHex.code,
-          description: derivedHex.description
-        } : {
-          title: "지괘 미검색",
-          code: derivedCode,
-          description: "해당 지괘의 데이터가 DB에 존재하지 않습니다."
-        }
-      }),
+        derivedHex: derivedHex
+          ? {
+              title: derivedHex.title,
+              alias: derivedHex.alias,
+              unicode: derivedHex.unicode,
+              code: derivedHex.code,
+              description: derivedHex.description,
+              score: derivedHex.score ?? null
+            }
+          : {
+              title: "지괘 미검색",
+              code: derivedCode,
+              description: "해당 지괘의 데이터가 DB에 존재하지 않습니다.",
+              score: null
+            }
+      })
     };
   } catch (err) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: err.message }),
+      body: JSON.stringify({ error: err.message })
     };
   }
 };
