@@ -802,7 +802,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100111", 
+      "code": "100101", 
       "unicode": "䷔", 
       "title": "火雷噬嗑", 
       "alias": "화뢰서합", 
@@ -842,7 +842,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "111001", 
+      "code": "101001", 
       "unicode": "䷕", 
       "title": "山火賁", 
       "alias": "산화비", 
@@ -882,7 +882,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100000", 
+      "code": "000001", 
       "unicode": "䷖", 
       "title": "山地剝", 
       "alias": "산지박", 
@@ -922,7 +922,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "000001", 
+      "code": "100000", 
       "unicode": "䷗", 
       "title": "地雷復", 
       "alias": "지뢰복", 
@@ -962,7 +962,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "111100", 
+      "code": "100111", 
       "unicode": "䷘", 
       "title": "天雷无妄", 
       "alias": "천뢰무망", 
@@ -1002,7 +1002,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "001111", 
+      "code": "111001", 
       "unicode": "䷙", 
       "title": "山天大畜", 
       "alias": "산천대축", 
@@ -1042,7 +1042,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101001", 
+      "code": "100001", 
       "unicode": "䷚", 
       "title": "山雷頤", 
       "alias": "산뢰이", 
@@ -1082,7 +1082,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100101", 
+      "code": "011110", 
       "unicode": "䷛", 
       "title": "澤風大過", 
       "alias": "택풍대과", 
@@ -1122,7 +1122,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "001010", 
+      "code": "010010", 
       "unicode": "䷜", 
       "title": "重水坎", 
       "alias": "중수감", 
@@ -1162,7 +1162,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "010100", 
+      "code": "101101", 
       "unicode": "䷝", 
       "title": "重火離", 
       "alias": "중화리", 
@@ -1202,7 +1202,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "110101", 
+      "code": "001110", 
       "unicode": "䷞", 
       "title": "澤山咸", 
       "alias": "택산함", 
@@ -1242,7 +1242,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101011", 
+      "code": "011100", 
       "unicode": "䷟", 
       "title": "雷風恒", 
       "alias": "뇌풍항", 
@@ -1282,7 +1282,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "010010", 
+      "code": "001111", 
       "unicode": "䷠", 
       "title": "天山遯", 
       "alias": "천산돈", 
@@ -1322,7 +1322,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "010110", 
+      "code": "111100", 
       "unicode": "䷡", 
       "title": "雷天大壯", 
       "alias": "뇌천대장", 
@@ -1362,7 +1362,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011110", 
+      "code": "000101", 
       "unicode": "䷢", 
       "title": "火地晉", 
       "alias": "화지진", 
@@ -1402,7 +1402,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011100", 
+      "code": "101000", 
       "unicode": "䷣", 
       "title": "地火明夷", 
       "alias": "지화명이", 
@@ -1442,7 +1442,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "000110", 
+      "code": "101011", 
       "unicode": "䷤", 
       "title": "風火家人", 
       "alias": "풍화가인", 
@@ -1482,7 +1482,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011000", 
+      "code": "110101", 
       "unicode": "䷥", 
       "title": "火澤暌", 
       "alias": "화택규", 
@@ -1522,7 +1522,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "010011", 
+      "code": "001010", 
       "unicode": "䷦", 
       "title": "水山蹇", 
       "alias": "수산건", 
@@ -1562,7 +1562,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "110010", 
+      "code": "010100", 
       "unicode": "䷧", 
       "title": "雷水解", 
       "alias": "뇌수해", 
@@ -1602,7 +1602,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101110", 
+      "code": "110001", 
       "unicode": "䷨", 
       "title": "山澤損", 
       "alias": "산택손", 
@@ -1642,7 +1642,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011101", 
+      "code": "100011", 
       "unicode": "䷩", 
       "title": "風雷益", 
       "alias": "풍뢰익", 
@@ -1682,7 +1682,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "000101", 
+      "code": "111110", 
       "unicode": "䷪", 
       "title": "澤天夬", 
       "alias": "택천쾌", 
@@ -1722,7 +1722,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101000", 
+      "code": "011111", 
       "unicode": "䷫", 
       "title": "天風姤", 
       "alias": "천풍구", 
@@ -1762,7 +1762,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101101", 
+      "code": "000110", 
       "unicode": "䷬", 
       "title": "澤地萃", 
       "alias": "택지취", 
@@ -1802,7 +1802,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101010", 
+      "code": "011000", 
       "unicode": "䷭", 
       "title": "地風升", 
       "alias": "지풍승", 
@@ -1842,7 +1842,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "010101", 
+      "code": "010110", 
       "unicode": "䷮", 
       "title": "澤水困", 
       "alias": "택수곤", 
@@ -1882,7 +1882,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "110001", 
+      "code": "011010", 
       "unicode": "䷯", 
       "title": "水風井", 
       "alias": "수풍정", 
@@ -1922,7 +1922,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100011", 
+      "code": "101110", 
       "unicode": "䷰", 
       "title": "澤火革", 
       "alias": "택화혁", 
@@ -1962,7 +1962,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "111110", 
+      "code": "011101", 
       "unicode": "䷱", 
       "title": "火風鼎", 
       "alias": "화풍정", 
@@ -2002,7 +2002,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011111", 
+      "code": "100100", 
       "unicode": "䷲", 
       "title": "重雷震", 
       "alias": "중뢰진", 
@@ -2042,7 +2042,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "000111", 
+      "code": "001001", 
       "unicode": "䷳", 
       "title": "重山艮", 
       "alias": "중산간", 
@@ -2082,7 +2082,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "111011", 
+      "code": "001011", 
       "unicode": "䷴", 
       "title": "風山漸", 
       "alias": "풍산점", 
@@ -2162,7 +2162,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "001101", 
+      "code": "101100", 
       "unicode": "䷶", 
       "title": "雷火豐", 
       "alias": "뇌화풍", 
@@ -2202,7 +2202,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "101100", 
+      "code": "001101", 
       "unicode": "䷷", 
       "title": "火山旅", 
       "alias": "화산려", 
@@ -2242,7 +2242,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "001001", 
+      "code": "011011", 
       "unicode": "䷸", 
       "title": "重風巽", 
       "alias": "중풍손", 
@@ -2282,7 +2282,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100100", 
+      "code": "110110", 
       "unicode": "䷹", 
       "title": "重澤兌", 
       "alias": "중택태", 
@@ -2322,7 +2322,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "110110", 
+      "code": "010011", 
       "unicode": "䷺", 
       "title": "風水渙", 
       "alias": "풍수환", 
@@ -2362,7 +2362,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011011", 
+      "code": "110010", 
       "unicode": "䷻", 
       "title": "水澤節", 
       "alias": "수택절", 
@@ -2402,7 +2402,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "100110", 
+      "code": "110011", 
       "unicode": "䷼", 
       "title": "風澤中孚", 
       "alias": "풍택중부", 
@@ -2442,7 +2442,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "011100", 
+      "code": "001100", 
       "unicode": "䷽", 
       "title": "雷山小過", 
       "alias": "뇌산소과", 
@@ -2482,7 +2482,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "110011", 
+      "code": "101010", 
       "unicode": "䷾", 
       "title": "水火旣濟", 
       "alias": "수화기제", 
@@ -2522,7 +2522,7 @@ const hexagrams = {
       ]  
     },
     { 
-      "code": "001110", 
+      "code": "010101", 
       "unicode": "䷿", 
       "title": "火水未濟", 
       "alias": "화수미제", 
