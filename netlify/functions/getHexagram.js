@@ -17,12 +17,12 @@ const hexagrams = {
         {
           "position": "구이",
           "score": "4",
-          "description": "아침 볕에 기러기 우는 상. 본격 진출, 남 취업, 여 경사·결혼."
+          "description": "아침 볕에 기러기 우는 상. 본격 진출, 남 취업, 여 경사·결혼."          
         },
         {
           "position": "구삼",
           "score": "3",
-          "description": "임무는 중하고 갈 길은 멀다. 조심하고 힘써 노력해야 잘 된다."
+          "description": "임무는 중하고 갈 길은 멀다. 조심하고 힘써 노력해야 잘 된다."          
         },
         {
           "position": "구사",
@@ -2567,43 +2567,59 @@ const hexagrams = {
 // Netlify Function 핸들러
 exports.handler = async function (event, context) {
   try {
+    // hexagrams.hexagrams가 데이터 배열임을 전제합니다.
     const hexagramsArr = hexagrams.hexagrams;
 
-    // 본괘 무작위 선택
+    // 1. 본괘 무작위 선택
     const mainHex = hexagramsArr[Math.floor(Math.random() * hexagramsArr.length)];
 
-    // 동효 무작위 선택
+    // 2. 동효 무작위 선택 (0: 초효 ~ 5: 상효)
+    // lines 배열의 0번이 초효이므로 index가 곧 효의 위치입니다.
     const changingLineIndex = Math.floor(Math.random() * mainHex.lines.length);
     const changingLine = mainHex.lines[changingLineIndex];
 
-    // 본괘 코드 복사
+    // 3. 지괘(변괘) 코드 생성
+    // code의 왼쪽이 초효이므로, changingLineIndex를 그대로 사용합니다.
     let derivedCodeArr = mainHex.code.split("");
-
-    // lines 배열(초구~상구) ↔ code 문자열(상구~초구) 역순 매핑
-    const codeIndex = mainHex.lines.length - 1 - changingLineIndex;
-
-    // 해당 자리 반전 (양효 ↔ 음효)
-    derivedCodeArr[codeIndex] =
-      derivedCodeArr[codeIndex] === "1" ? "0" : "1";
-
+    
+    // 선택된 동효의 자리(0~5)를 반전 (1 <-> 0)
+    derivedCodeArr[changingLineIndex] = 
+      derivedCodeArr[changingLineIndex] === "1" ? "0" : "1";
+    
     const derivedCode = derivedCodeArr.join("");
 
-    // 지괘 찾기 (본괘에서 동효만 바뀐 코드로 검색)
-    const derivedHex = hexagramsArr.find((hex) => hex.code === derivedCode);
+    // 4. 지괘 찾기
+    // 생성된 derivedCode와 일치하는 괘를 DB에서 검색합니다.
+    const derivedHex = hexagramsArr.find((hex) => hex.code.trim() === derivedCode);
 
-    // 결과 반환
+    // 5. 결과 반환
     return {
       statusCode: 200,
+      headers: {
+        "Content-Type": "application/json; charset=utf-8"
+      },
       body: JSON.stringify({
-        mainHex,
-        changingLine,
-        derivedHex: derivedHex || {
+        mainHex: {
+          title: mainHex.title,
+          alias: mainHex.alias,
+          unicode: mainHex.unicode,
+          code: mainHex.code,
+          description: mainHex.description
+        },
+        changingLine: {
+          position: changingLine.position, // 예: "초구"
+          description: changingLine.description
+        },
+        derivedHex: derivedHex ? {
+          title: derivedHex.title,
+          alias: derivedHex.alias,
+          unicode: derivedHex.unicode,
+          code: derivedHex.code,
+          description: derivedHex.description
+        } : {
+          title: "지괘 미검색",
           code: derivedCode,
-          unicode: "?",
-          title: "미등록 괘",
-          alias: "",
-          score: "0",
-          description: "데이터 없음"
+          description: "해당 지괘의 데이터가 DB에 존재하지 않습니다."
         }
       }),
     };
