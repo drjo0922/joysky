@@ -12,31 +12,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "작은 나무를 키우는 상. 때를 기다려라."
         },
         {
           "position": "구이",
           "score": "4",
+          "investmentScore": "5",
           "description": "아침 볕에 기러기 우는 상. 본격 진출, 남 취업, 여 경사·결혼."          
         },
         {
           "position": "구삼",
           "score": "3",
+          "investmentScore": "3",
           "description": "임무는 중하고 갈 길은 멀다. 조심하고 힘써 노력해야 잘 된다."          
         },
         {
           "position": "구사",
           "score": "3",
+          "investmentScore": "4",
           "description": "구름은 꼈는데 비는 안 오는 상. 될 듯 해도 안 풀린다. 때를 기다려라."
         },
         {
           "position": "구오",
           "score": "5",
+          "investmentScore": "5",
           "description": "중천의 해가 세상을 비추고, 물속의 용이 비상. 뜻을 이루고 지도자가 된다."
         },
         {
           "position": "상구",
           "score": "2",
+          "investmentScore": "2",
           "description": "해가 지는데, 갈 길이 멀다. 극에 달했으니 내려갈 일만 남았다."
         }
       ]
@@ -52,31 +58,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "2",
           "description": "어두운 그림자를 밟은 상. 조짐에 주목해라. 선이 쌓이면 경사가 되고, 악이 쌓이면 화가 된다." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "곤(坤)이 중정을 얻으니, 영화와 번영의 상. 정직하고 너그럽게 가면 탄탄대로." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "육삼은 땅속에 산이 있으니, 잉태의 상. 나서지 말고 어른의 뜻을 따르라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "입조심하라. 말이 많으면 탈 난다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "물이 흘러 땅을 살찌우고, 초목이 무성한 상. 나라의 재상, 가정의 주부 자리." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "진흙밭에서 소싸움 하는 상. 다툼을 조심하라." 
         }
       ]
@@ -92,31 +104,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "4",
           "description": "흙 속에서 나무가 나와 뿌리와 가지를 뻗는 형상. 남아가 뜻을 얻는다. 바닥부터 닦아 나가면 성공한다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "두 양(陽)이 경쟁한다. 더 나은 쪽을 잘 골라야 복을 받는다. 적절한 판단 중요." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "산이 깊고 풀이 무성하니, 적은 많고 길이 없다. 차라리 단념하고 때를 기다려라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "달이 물이 비치고, 여자가 시집간다. 노력하여 짝을 만나 뜻을 이룬다." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "날고자 하나 날 수 없으니, 때를 기다려 도모하라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "설야(雪夜)에 길을 잃으니, 정신이 아득하다. 슬픈 일이 생긴다." 
         }
       ]
@@ -132,31 +150,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "1",
           "description": "물이 못을 채운 뒤 다시 흐른다. 어렵지만 차차 풀린다. 노력해라. 오해가 풀린다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "학문 높고 재물 부유하다. 교육자. 결혼. 승진. 실권 획득의 상." 
         },
         { 
           "position": "육삼", 
           "score": "1", 
+          "investmentScore": "1",
           "description": "여자의 행실이 불순하다. 안분지족(安分知足) 하라." 
         },
         { 
           "position": "육사", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "겨울 달밤에 홀로 도 닦는다. 혼자 노력과 공부로 성취." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "문성(文星)이 비쳤으니, 장원급제한다." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "1",
           "description": "유비무환(有備無患)이다. 남을 비판하거나 시비 금지. 경찰, 교수 상." 
         }
       ]
@@ -172,31 +196,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "4",
           "description": "꼼짝 마라. 나가면 어려움이 기다리고 있다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "시끄럽고, 말썽이 있고, 혼란스러워도 조심하면 성공한다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "위험한 처지에서 그럭저럭 버틴다. 좋고 나쁨이 뒤섞이니 마음이 힘들다." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "위험을 벗어난다. 순리를 따름으로써 목숨을 보전한다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "잔치를 열어 벗을 모으는 형국. 하늘 문이 스스로 열리니, 권력 속에 빛난다." 
         },
         { 
           "position": "상육", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "귀한 세 사람의 손님이 누추한 내 집을 찾으니, 한결같이 공경하라." 
         }
       ]  
@@ -212,31 +242,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "송사는 초장에 끊는 게 좋다. 지금 잠깐 잘해야, 그 영향으로 길게 좋다." 
         },
         {
           "position": "구이",
           "score": "2", 
+          "investmentScore": "3",
           "description": "큰 바람, 큰 적과 맞서니 질 것이 뻔하다. 멀리 도망쳐 숨어라." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "기존의 것을 지키고, 분수와 겸손을 다하면 형통하다. 보수주의." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "센 놈 앞에 나를 낮추고 상대의 우월을 인정하라. 본분을 지키며 기회를 노린다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "나의 태양이 천하를 비추는데, 누가 감히 나를 대적하리오." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "종일 부정하게 모은 재물 저녁에 잃으니, 사면초가! 앞길이 아득하네." 
         }
       ]  
@@ -252,31 +288,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "우물 팔 자리를 점치는 상. 융통성 있으면서도 정신을 모아 예리하게 행한다." 
         },
         {
           "position": "구이",
           "score": "5", 
+          "investmentScore": "4",
           "description": "이기고 돌아오는 개선장군의 상. 명리(名利)가 천리에 떨친다. 포용력을 발휘하라." 
         },
         { 
           "position": "육삼", 
           "score": "1", 
+          "investmentScore": "2",
           "description": "오는 적을 막을 길이 없으니, 불안이 가득하다. 손실, 죽음 등의 의미." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "집돼지가 눈 쌓인 들에 나간 꼴. 먹을 게 없다. 도망치는 것도 병법이다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "적이 쳐들어오는 데 군사를 거느리고 맞서는 상. 사람을 잘 써야 이긴다." 
         },
         { 
           "position": "상육", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "승리의 기쁨을 누리는 상. 속 좁은 놈, 소인을 멀리하라. 공정하라." 
         }
       ]  
@@ -292,31 +334,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "꽃이 만발한 봄. 정성으로 구하면 귀인이 와서 돕는다." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "2",
           "description": "부부 화합하니, 집 안에서 하는 일은 잘 풀린다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "나쁜 사람을 가까이 하면 화를 입는다. 남에게 함부로 하지 말고, 조심하라." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "밖에서, 해외에서 활동한다. 대인을 따라 배우고 덕을 입는다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "5",
           "description": "물과 흙이 서로 도우니, 만물이 새로 난다. 천하무적. 관용, 경청. 오는 사람 받고, 가는 사람 잡지 마라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "시작도 없고 끝도 없다. 집도 잃고 몸도 망친다. 씨 뿌리지 않았으니, 가을이 와도 구설만 분분할 뿐, 거둘 게 없다." 
         }
       ]  
@@ -332,31 +380,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "5",
           "description": "젊은 나이에 험한 세상 밟아 가는데 옳은 도(道)를 따라 정진하라." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "무거운 짐 옮기려면, 혼자보다 협력이 답이다. 막으려는 자조차 힘을 합치게 하라." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "서로의 잘못으로 부부가 싸운다. 바퀴가 빠졌으니, 수레가 못 나간다." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "신뢰를 주는 행동으로 윗 사람의 도움을 받아 어려움을 이긴다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "믿음을 주어 사람을 모은다. 남을 돕고 화합한다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "기다리던 비가 온다. 미심쩍은 부분이 있다. 동남방은 불리하다." 
         }
       ]  
@@ -372,31 +426,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "소신대로 하고, 누가 뭐라 하든 내 능력대로 움직이라. 흔들리면 잃는다." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "산중의 도(道) 닦는 사람이 바름을 지키듯 하면, 탄탄대로다. 조급하지 마라." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "호랑이 꼬리를 밟았다. 옳지도 적절하지도 않은 일을 욕심으로 지혜 없이 밀어붙이면, 다친다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "호랑이 꼬리를 밟아도 조심하고 두려워하면 물리지 않는다. 순리를 따르라." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "지존의 자리에서 결단은 위험이 따른다. 그러나 옳은 일은 과감하게 밀고 나가라." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "마침에 이르러 하나같이 잘 맺었으니, 복록과 경사가 따른다. 이전을 돌이켜 보고 교훈 삼아라." 
         }
       ]  
@@ -412,31 +472,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "5",
           "description": "천지가 사귀고 시운이 돌아왔다. 도전하고, 경영하고, 뜻을 펴라." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "세상이 편안한 가운데 새롭게 일을 시작한다. 노력하면 성공한다. 용기를 내라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "지금은 좋지만, 열흘 붉은 꽃 없다. 어려울 때를 대비하여 근신하고 미리 힘써라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "꽃은 시들고 구름이 이는데, 나아갈 힘은 부족하다. 상대가 나를 노린다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "수토(水土)상극이나 상합(相合)하니, 여자면 좋은 혼처로 시집갈 상. 상대와 화해하라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "공든 탑이 무너지고, 물을 거슬러 배를 모는 꼴. 이제 끝이니 되돌릴 길은 없다." 
         }
       ]  
@@ -452,31 +518,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "의지할 곳도 없다. 도 닦고 공부하며 때를 기다려라. 귀인을 만나면 운이 돌아온다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "1",
           "description": "쓸데없는 일에 심력만 낭비한다. 군자답게 의리를 따르면 좋은 날이 온다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "옳지 않은 일을 했으니, 인과응보와 수치스러움이 뒤따른다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "땅 위에 바람이 이니 봄이다. 뜻 맞는 사람과 도모하면, 그간의 실패를 딛고 서리라." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "밝음이 땅위에 솟으니, 음이 굴복한다. 솟아날 구멍이 있다. 희망을 가져라." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "쇠운이 가고 성운이 온다. 밤이 가고 새 아침이 밝아 오니, 기쁨이 가득하다." 
         }
       ]  
@@ -492,31 +564,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "4",
           "description": "밝음이 밖에 나가 사람과 함께하니, 아름다운 벗을 사귐이다. 좋은 사람들과 사귀어라." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "다섯 양이 찾아오니, 음은 불편부당한 순진함으로 대하라. 잘 사귀면 후일의 자산이다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "힘을 믿고 설치면 백전백패다. 자신을 정확하게 알고, 강자에게 덤비지 마라." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "적을 알고 나를 알면, 실수가 없을 터이니, 마침내 길한 일을 바랄 수 있다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "뜻이 모이면 쇠라도 끊는다. 먼저 울고, 뒤에 웃는다. 실패 뒤의 성공." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "뜻은 못 얻었으나, 세상을 물러나, 즐겁게 산다. 숨어 글이나 쓰지만, 후회는 없다." 
         }
       ]  
@@ -532,31 +610,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "4",
           "description": "무해무덕한 위치. 내가 좀 손해 봐도 남에게 잘 하면, 그 덕이 내게 다시 온다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "5",
           "description": "드디어 대운이 열리고, 길한 사람과 잘 화합하니, 큰 벼슬과 출세의 상이다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "모든 게 내 하기 나름이다. 소인을 멀리하고 공정하라. 부하를 잘 쓰면 성공한다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "이미 귀한 자리에 있으니, 기울지 않고 오래 가려면, 욕심을 누르고 더 키우지 마라." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "천하를 크게 소유하는(大有) 상. 신의와 의지를 지키면서 순리대로 나가면 대성한다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "5",
           "description": "자천우지(自天祐之), 하늘이 돕는다. 공을 이루고 몸은 물러나니, 하늘이 돕고 사람이 도와 만사형통이다." 
         }
       ]  
@@ -572,31 +656,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "4",
+          "investmentScore": "3",
           "description": "낮추어 스스로를 기르니, 남들이 따르고 도와 일을 성사시킨다." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "능력을 감추고 겸손하니, 그 향기가 널리 알려져 도리어 빛나고 크게 쓰인다." 
         },
         { 
           "position": "구삼", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "땅속에 산이 있으니, 낮추되 위로 오름이다. 베풀고 앞장서면서도 겸손하니 세상이 우러러 본다. 군자가 유종의 미를 거둔다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "음으로서 위에 있으니 두루 겸손이 이롭고, 구름을 헤치고 달을 보니 경사가 온다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "내 재물을 가난한 이웃과 나누니 내 몸이 드러난다. 공격적 사랑에도 남들이 복종한다." 
         },
         { 
           "position": "상육", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "멀리 있는 객의 마음이 화살 같다. 마음을 비우고 거짓 없는 진심으로 남을 대해라." 
         }
       ]  
@@ -612,31 +702,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "4",
           "description": "구설수. 하루살이, 물거품, 뜬구름 같다. 허술한 일을 후회해도 소용없다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "돌 속에 묻힌 옥이 저절로 빛난다. 여자는 지조, 남자는 배짱. 중용과 절도를 지켜라." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "음이 그릇된 자리에 있으니, 여자가 짝사랑하는 상. 바라지말 것을 바람에, 비굴하고 후회가 남는다." 
         },
         { 
           "position": "구사", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "한 번 부름에 백 사람이 달려오니, 즐겁다. 많은 여자의 사랑을 받는 남자의 상이다." 
         },
         { 
           "position": "육오", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "여자가 남자를 흠모하여 상사병이 난 격이다. 그래도 몸과 마음을 잘 지키면 오래 산다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "환락에 젖어 돌이킬 줄 모르니, 마음을 고치지 않으면 점점 어려워진다." 
         }
       ]  
@@ -652,31 +748,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "3",
           "description": "봄 언덕에 버드나무가 때맞춰 푸르구나! 때를 맞았으니 힘차게 나가면 공을 이룬다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "두 토끼는 못 쫓고, 양다리 걸치고는 못 걷는다. 소탐대실, 집토끼라도 지켜라." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "작은 거 잃고 큰 거 얻는다. 재수 좋고, 선택도 좋고, 때를 잘 탔다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "서둘지 말고, 과욕도 버리고, 신의와 의리를 지켜 밝게 처신하라. 아니면 감옥 간다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "맑은 강물을 어찌 티끌이 오염시키리오. 나를 바르게 하여, 신의와 옳음을 지켜라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "고난이 갈수록 깊고 어렵다. 서산에 기도하라. 치매, 동맥경화, 사업 위기." 
         }
       ]  
@@ -692,31 +794,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "앞 사람의 잘못을 뒷 사람이 수습한다. 겸손하게 스스로를 단속하라." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "수절하던 어미가 개가하니, 따질 수도 없고, 자식이 어미 일을 맡아 하는 상이다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "양이 강한 위치에 있으니, 힘으로 다스려도 좋고, 언행을 삼가니, 허물이 없다. 새출발." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "결정을 미루고 진퇴가 우유부단하니, 졸렬하다는 욕을 먹는다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "아비가 덕으로 전하고, 자식이 예로 이으니, 칭찬과 명예가 따른다." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "개국공신이면서도 왕을 섬기지 않고 산에 가 신선이 된 장자방의 상이다." 
         }
       ]  
@@ -732,31 +840,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "4",
           "description": "음양이 사귀고 상생. 문제를 풀고 안정화 단계. 길하다. 감동적으로 사람을 대한다." 
         },
         {
           "position": "구이",
           "score": "5", 
+          "investmentScore": "5",
           "description": "중도로 화합해, 금성철벽을 한마음으로 지킨다. 감동을 주니 호응하고 성과가 있다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "음이 양의 자리에 처하니, 부당하다. 가면을 벗으면, 허물이 오래가지 않는다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "땅위에 우레가 움직이니, 지성이면 봄바람을 일으키리라. 지성감천. 뜻을 이룬다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "구이와 육오가 서로 응하니, 나라가 흥성한다. 뜻을 세우고 지혜로 포용하라." 
         },
         { 
           "position": "상육", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "응함이 없는 음이다. 후한 덕으로 아랫사람의 뜻을 따르면, 화(和)하고 맑아 진다." 
         }
       ]  
@@ -772,31 +886,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "우물 안 개구리가 하늘 보고 비웃는 꼴이니, 이대로는 성공하기 어렵다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "1",
           "description": "숨어서 엿보는 꼴. 부끄럽다. 넓게 보지 못하는 추한 짓에 내 인격만 상한다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "효(爻)의 위치가 갈림길이다. 내 능력에 맞춰 진퇴를 정하면, 힘들어도, 결국 좋아진다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "육사(六四)는 임금 근처이니, 몸과 벼슬이 왕성하다. 취직, 관광 등의 상." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "2",
           "description": "임금의 자리이니, 자기 자신을 먼저 살피고 백성을 살펴라. 군자면 허물이 없다." 
         },
         { 
           "position": "상구", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "고귀하지만 지위가 없으니, 뜻이 있어도 편치 않다. 살피고, 고치고, 스스로 길러라." 
         }
       ]  
@@ -812,31 +932,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "5",
           "description": "길이 험해, 가기 힘들다. 동쪽에서 시비가 온다. 나를 돌아보며 바른길을 가라." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "위의 음이 아래 양에게 봉변당하는 상이다. 덕으로써 복종시킨다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "육삼은 재질이 약하고 선 위치도 마땅치 않다. 먹는 것에 독이, 가는 길에 함정이 있다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "한번 울고 한번 웃으니, 기회를 잡고 어려움을 이기면 황금을 얻는다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "운이 일어나, 내 말을 모두 따르니, 돈 벌고 뜻대로 이룬다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "불이 큰 기둥에 이르렀지만, 알지 못한다. 스스로 화를 부르니 형틀을 매고, 귀가 막힌다." 
         }
       ]  
@@ -852,31 +978,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "가는 길이 멀지만, 수레를 버리고 걸으니, 마침내 정도로 돌아간다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "음이 위의 양에 붙은 형상. 손발이 맞으면 일이 풀린다. 나보다 나은 사람을 따라 해라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "5",
           "description": "봄 동산에 비 내리니, 풀 향기 가득하네. 두 음 사이에 낀 양이다. 정신 차리고, 하나를 택해라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "말 타고, 짝 구하러 가는 상. 공연히 의심 말고 본심으로 상대를 대해라." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "봄 동산에 꽃이 만발하니, 집안이 즐겁다. 장가 가서, 가정을 꾸밀 상." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "흰 바탕에 색을 칠한다. 산이 천 년을 묵어도 항상 참됨을 간직한다. 깨끗한 유종의 미." 
         }
       ]  
@@ -892,31 +1024,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "3",
           "description": "지신(地神)이 발동하여 집이 불안하고, 상다리가 부러지니, 몸을 세우기 어렵다." 
         },
         {
           "position": "육이",
           "score": "2", 
+          "investmentScore": "2",
           "description": "밤기운 차고 습한데, 귀신이 뜰에 운다. 음양이 불화했으니, 독단으로 하면 손해다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "홀로 위의 양과 응하니, 비록 깎으나 허물은 없다. 병은 수술하고, 버릴 것은 버려라." 
         },
         { 
           "position": "육사", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "살을 깎아 재앙에 가까우니, 상하지 않은 곳이 없다. 물에 빠지고 불에 들어간다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "위아래 다섯 음은 고기를 꿴 상이니, 생선 장사다. 여자 중 지도급. 이익을 본다." 
         },
         { 
           "position": "상구", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "군자가 대중을 구제하니, 큰 열매와 수레를 얻는다. 저명인사, 지도자, 선장의 상." 
         }
       ]  
@@ -932,31 +1070,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "5",
+          "investmentScore": "3",
           "description": "멀리서 봄바람이 오고, 한 개의 양(陽)이 와 회복하니, 백 가지 일이 길하다." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "4",
           "description": "정원 초목이 비를 만나 소생하니, 귀인이 도와 번영한다. 아랫사람의 말도 귀담아들어라." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "문제를 해결하려 하나 허사. 힘들고 바쁘게 움직이지만, 해도 득도 없네." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "다섯 음 가운데 양이 와서 홀로 친하네. 타향에 오랜 벗을 만난다. 혼자 힘으로 이룬다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "사방을 봐도 의지할 곳 없다. 중심을 잡고 스스로 이루라. 빈한한 상이지만, 신수는 태평하다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "활만 있고 화살이 없다. 어두운 미로 속에서 되는 일이 없다. 매사 불성, 10년 실패." 
         }
       ]  
@@ -972,31 +1116,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "3",
           "description": "해와 달이 떠오를 때의 운이다. 아무것 없어도 희망을 얻으니, 일할 맛이 생기네." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "3",
           "description": "봄기운 무르익으니 화한 기운 가득하다. 하늘이 도우니, 뜻밖에 재물을 얻고 왕성하다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "횡액운을 조심하라. 마음 기둥을 굳게 잡지 않으면, 하는 일이 막히리라. 누명, 억울함, 손해." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "깨끗해야 관재(官災) 근심이 없고, 뜻이 굳어야, 만사에 해가 없다. 욕심내지 마라." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "무망의 병에 걸린 상이니, 약 먹어 낫는 게 아니다. 마음을 편히 해라." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "백옥에 티가 생겼으니, 횡재가 도리어 흉하다. 동서남북 모든 길이 험하고 막혔다. 날뛰면 다친다." 
         }
       ]  
@@ -1012,31 +1162,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "4",
           "description": "진퇴가 과감할 수 없으니, 이럴 때는 가지 않는 것이 상책이다. 촐싹대지 마라." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "2",
           "description": "중(中)에 있으며 망동하지 않으니, 상하 화합하고, 크게 쌓아, 장래 좋은 일이 있다." 
         },
         { 
           "position": "구삼", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "봄 강물에 배 띄우니 외허내실. 굳세고 쉬지 않으니, 반드시 성공한다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "어린 소를 잘 이끄는 것은 3일의 계책이요, 순리를 따름은 백년 지혜이다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "오효의 음이다. 힘으로는 상대를 못 이긴다. 꾀를 내라. 지장이 용장보다 낫다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "봄물에 물고기 뛰고, 창공에 기러기 난다. 노력해 대성한다. 정신이 도의 경지에 이른다." 
         }
       ]  
@@ -1052,31 +1208,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "1",
           "description": "집안이 편치 않고, 허영심에 빠진 상. 자기 노력 없이 남에게 의존하면 추하다." 
         },
         {
           "position": "육이",
           "score": "2", 
+          "investmentScore": "4",
           "description": "버릴 것과 취할 것을 모르니, 구해도 얻지 못한다. 두 마리 토끼는 못 잡는다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "줏대 없이 허황된 것 쫓다가 큰 대가를 받는다. 마음이 바르지 않으면 패가망신한다." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "하고자 함을 열렬히 추구하니, 결국 성공한다. 외길 인생, 일편단심 순애보의 상." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "비록 양의 자리의 음이나, 중에 거하여 바르고, 위를 따라 힘을 얻는다. 현인의 자문을 구하고, 작은 일부터 키워 나가라." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "천록과 관운을 왕성하게 입은 가운데, 재산을 털어 빈민을 구제한다. 자선사업가다." 
         }
       ]  
@@ -1092,31 +1254,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "지성으로 기도하라. 힘써 몸을 부양해야 집안이 다시 일어난다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "봄비가 내리니 한 줄기 매화가 피고, 고목에 싹이 나는 격. 늙은 남자 젊은 여자 결혼. 운수 호전." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "줏대가 없다. 마음이 흔들린다. 남들이 도와주지 않는다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "차라리 높은 쪽에 붙어라. 그래야 아래에서 흔들지 못한다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "고목에 꽃이 피고, 길 위에 흐르는 물이니, 이런 운은 오래 가지 못한다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "때를 어겨 활동하니, 별 이익이 없다. 나대면 다친다. 차라리 모든 걸 내 탓으로 돌려라." 
         }
       ]  
@@ -1132,31 +1300,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "1",
+          "investmentScore": "4",
           "description": "위기에 또 위기로 감감(坎坎)하니 몸조차 보존키 어렵다. 시궁창에 빠지고 홍수에 떠내려가는 상." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "중(中)에 거하며 나오지 않으니 난세에 몸을 보존한다. 험한 데서 간신히 빠져나온다. 옛것을 버리고 새로움을 추구하라." 
         },
         { 
           "position": "육삼", 
           "score": "1", 
+          "investmentScore": "2",
           "description": "갈수록 태산이다. 병든 말에 길은 없고, 땅에 밤 어둠만 쌓이네. 도와줄 사람도 없다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "수고로우나 죽을 곳에서 삶을 만남이요, 처음 막히나, 나중은 형통하다. 남모르게 정성 들이고, 도울 사람을 찾아라." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "푸른 파도에 낚시를 드리우니, 뜻은 이루지 못하나, 좋은 인연을 찾네. 욕심부리지 말고, 남을 도와라." 
         },
         { 
           "position": "상육", 
           "score": "1", 
+          "investmentScore": "4",
           "description": "갇혀 흐르지 못하는 물이다. 야밤에 호랑이를 만나니 꾀를 써도 소용없다. 감옥살이. 도망의 상." 
         }
       ]  
@@ -1172,31 +1346,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "가는 길이 혼란스럽다고 이랬다저랬다 하지 말고 차분하게 해야 해가 없다." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "4",
           "description": "만사를 순리에 따라 중을 잡아 처리하면 뜻대로 이루어진다. 아내의 내조로 성공하는 상." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "복이여 재앙이여, 오직 사람에 달렸으니, 해 질 녘에 장구치고 웃도다." 
         },
         { 
           "position": "구사", 
           "score": "1", 
+          "investmentScore": "4",
           "description": "바다에서 토끼를 잡으려 하고, 산에서 물고기를 구하며, 섶을 지고 불로 가는 상이다. 불조심." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "슬픈 일에 눈물 흘린다. 자비를 베푼다. 많은 사람의 칭송과 추앙을 받는다." 
         },
         { 
           "position": "상구", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "제자들을 많이 키워 번성하고, 명성을 떨침에, 천하가 한마음이다." 
         }
       ]  
@@ -1212,31 +1392,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "연못과 산이 서로 사귀어 합한 상이니, 처음부터 서로 뜻이 같다. 연애한다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "비와 바람과 파도가 없으니, 집안이 안정됨을 알겠다. 순종하고, 안에서 풀어라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "심지 굳지 못하니, 일에 지장 많다. 내 성질 억제하고 남의 마음 잡아야 따름과 도움을 얻는다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "자주 만나, 다른 길과 생각을 하나로 모으고, 더불어 일을 꾸민다. 대화하고, 사귀어라." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "5",
           "description": "봄 강물에 배 띄우니 외허내실, 욕심 없으니 길하다. 마음 비우고 정신을 수양한다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "말과 행동을 삼가라. 항상 조심하면 어찌 이토록 구설이 어지러울 수 있으리오." 
         }
       ]  
@@ -1252,31 +1438,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "5",
           "description": "한술 밥에 배부르기 바라는 어리석음. 수주대토(守株待兎), 뭘 모른다. 도리 없다." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "송죽의 푸름이 한결같으니, 내외가 서로 응하여 화락하다. 이대로만 가면 후회는 없다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "더러운 물에 고기 없고, 오랑캐 땅에 꽃 안 핀다. 덕과 신의를 어겼으니 수치스럽다." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "분주하나 얻은 건 없고, 꾸준하지 못했으니 무엇인들 건지겠는가? 빈손으로 공허하다." 
         },
         { 
           "position": "육오", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "꽃이 궁 안에 핀 격이니, 여자는 길하고, 남자는 흉하다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "첩첩산중을 헤매는 격. 헷갈린 마음으로 무슨 일을 하겠나. 이혼, 부도, 반목, 헛일 상." 
         }
       ]  
@@ -1292,31 +1484,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "4",
           "description": "도망치다 꼬리를 밟힌 격이니, 차라리 가만히 있어라." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "굳은 마음으로 황소처럼 나아가니, 모든 일을 스스로 푼다. 어찌 말로만 하랴." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "뜻을 세웠으나, 외면할 수 없는 현실 때문에 단념하고, 작은 일에 만족한다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "길흉이 뒤섞였으니, 그에 구애받지 않는 군자는 길하고, 소인에게는 재앙이다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "자연에 거하고, 홍진에 얽매이지 않으니, 물러난 삶이 아름답다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "비 갠 강가에 갈매기와 벗하고, 풍월과 함께하니, 심신이 여유롭다." 
         }
       ]  
@@ -1332,31 +1530,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "4",
           "description": "작은 힘을 믿고 설치면 흉하다. 스스로의 능력을 살펴 진퇴를 결정하라." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "이 효는 中에 있으니, 편안한 지금의 위치에서 잘 닦으면 길하다. 티 내지 마라." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "산을 뽑는 힘으로도 적은 못 막고, 울타리 들이받은 염소가 뿔이 걸려 꼼짝 못하는 상." 
         },
         { 
           "position": "구사", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "잠룡이 여의주를 얻으니, 변화무궁하고, 천상에 우레가 인다. 그 움직임이 장대하다." 
         },
         { 
           "position": "육오", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "양을 모는 지혜는 양의 속성을 알아야 하니, 사람 다스리는 도를 어찌 감정으로 하리오. 힘보다는 꾀다. 지혜로운 방법을 찾아라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "잘 달리는 짐승도 날지는 못하는 법이니, 자꾸만 가면 되는 게 아니다. 불길하다. 진퇴양난이다. 조심하고, 마음을 굳게 먹어라." 
         }
       ]  
@@ -1372,31 +1576,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "5",
           "description": "잠 깨고 일어나, 좋은 소식을 기다리는 상. 그러나, 때가 이르고, 실력도 모자란다. 넉넉하게 처신하라." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "중정한 사람이 하늘의 복을 받는다. 바르게 행하면 기회를 얻는다. 윗분이 여자다." 
         },
         { 
           "position": "육삼", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "해와 달이 떠오른 운세. 사람들이 신의로 따르니, 흥성할 때이다." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "적막강산에 물결이 이는 상. 분수를 넘으면 손상한다. 지나친 의심이 탈을 낳는다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "운이 와서 큰일 하니, 성패가 내게 달렸는데, 뭘 걱정하리오. 재지 말고 밀어붙여라." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "밤 누각에서 먼 곳을 보니 허공이요, 달리는 말이 낭떠러지를 만날까 두렵다. 발걸음을 돌리고, 욕심을 줄여라." 
         }
       ]  
@@ -1412,31 +1622,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "3",
           "description": "해가 없고 구름이 가린 상. 3일을 굶으니, 기운이 빠졌다. 그러나 희망도 없지는 않다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "발을 다쳤으나 말을 얻으니, 움직일 수 있고, 귀인이 도우니, 일이 순조롭다." 
         },
         { 
           "position": "구삼", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "대군을 호령하니 천하에 명성을 떨치고, 구름을 헤치고 달을 보니 아름답다. 내 길을 막을 자 없다. 서둘지 마라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "머리도 없고 꼬리도 없으니, 하는 일이 뜬구름 같고, 집에 있음이 불편하니, 한가로이 밖으로 나간다." 
         },
         { 
           "position": "육오", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "길이 없는데 어찌 가겠는가? 어려워도 바르게 살면 성할 때가 있다. 집안의 문제아를 잘 다스려라." 
         },
         { 
           "position": "상육", 
           "score": "1", 
+          "investmentScore": "3",
           "description": "스스로 어둠을 불러온 상이다. 먼저 웃고 나중 곡한다. 분수를 모르고 설치다가 망한다." 
         }
       ]  
@@ -1452,31 +1668,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "4",
           "description": "봄이 오니 새싹이 다투어 돋아나는 형국이다. 착실한 여학생의 상." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "5",
           "description": "사람의 덕이 곱고 아름다우며, 밝고, 어질다. 현모양처. 좋은 가정이다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "바람이 거세고, 촛불은 밝지 못하니, 우환이 아니면, 신병이 걱정이다. 갈등이 심하다. 서로 참아라." 
         },
         { 
           "position": "육사", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "계절의 변화가 순조로우니 풍년이로다. 노력하여 부자 된다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "가뭄에 단비요, 고향의 봄이니, 뭇 생명이 살아난다. 사랑과 존중이면 안 될 일이 없다." 
         },
         { 
           "position": "상구", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "아래 사람을 대할 때는 믿음을 주고, 위엄을 세워라. 그래야 복종한다." 
         }
       ]  
@@ -1492,31 +1714,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "어긋나고 어기는 때다. 과욕은 금물이다. 불행 중 다행, 잃어버린 말(馬)이 돌아온다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "2",
           "description": "양(陽)이 그늘진 골짜기로 돌아오니, 어려운 일을 쉽게 이룬다. 은밀히 만나, 모의한다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "헤어지고 흩어져 어긋나니, 처지가 위태롭다. 우연히 집사람을 만난다. 마음을 열고, 오해를 풀어라." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "떠도는 타향살이에 근근이 원수를 피한다. 선한 사람 만나, 함께 헤쳐 나간다. 반목을 풀고 만나면 일이 잘 풀린다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "남촌의 옛 친구가 우연히 나를 돕는다. 멀리했던 사람과 만나, 마음이 열린다." 
         },
         { 
           "position": "상구", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "서로 용납 못하던 사이에 화친하여 의심을 푸니, 처음은 아니지만, 마침은 좋다." 
         }
       ]  
@@ -1532,31 +1760,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "가면 험난하고, 돌아오면 명예롭다. 꼼짝 말고 때를 기다려라. 자랑스러운 일이 있다." 
         },
         {
           "position": "육이",
           "score": "2", 
+          "investmentScore": "1",
           "description": "절름발이가 내 일도 아닌데 쉴 틈 없이 바쁘다. 어려울 때니 한마음으로 힘을 합쳐라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "돌 위를 달리는 말이다. 가지 마라. 어렵게 된다. 다시 돌아오면 화평하다." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "어려운 일이 겹치니, 혼자서는 안된다. 돌아와 여럿이 힘을 모아 대응하라." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "기울은 달이 다시 차니, 돕는 사람이 있고, 바르게 대처하니 어려움이 풀린다." 
         },
         { 
           "position": "상육", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "어려운 처지에 꼼짝 못하고 있는데, 귀인이 와서 돕는다." 
         }
       ]  
@@ -1572,31 +1806,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "서남에서 벗을 얻고, 때를 따라 행하니 허물이 없다. 무해무덕 하다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "사냥이면 사냥, 낚시면 낚시, 모두 수확이 있다. 욕심 안 부려도 일이 잘 풀린다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "한 사람의 잘못이 백 사람에게 미치니, 분수를 모르고 나대다가는 큰 해를 입는다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "몸과 마음이 따로 노는 상. 혼신의 힘을 다해 근원을 해결하면, 다시는 어려움이 없다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "눈 속의 매화가 홀로 봄빛이다. 아래 사람에게 화한 바람을 베풀면 잘 따를 것이다." 
         },
         { 
           "position": "상육", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "공든 탑이 무너지랴? 능력을 기르고, 그릇을 키우면, 대기만성한다. 종교적 거장." 
         }
       ]  
@@ -1612,31 +1852,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "2",
           "description": "나를 덜어 남을 이롭게 함이니, 차서 넘치지 않으면 뜻이 합하고 친해진다. 일이 끝나서 결산하는 상." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "2",
           "description": "일터를 지키고 딴 곳에 가지 마라. 마음을 비우고 가만히 있으면 이로운 일이 생긴다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "서북은 득남, 서남은 벗을 얻으니, 더는 것이 오히려 이익일 수도 있다. 동업하다 갈라져 나가는 게 이익일 수도 있다는 의미." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "대처가 늦으면, 큰 병이 된다. 기미를 보고 옳게 대처해야 근심이 없다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "여러 사람이 도와서, 하는 일이 크게 성공한다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "봄 정원에 만물이 소생하고, 남아가 벼슬길에 오른 상. 일이 잘 풀린다." 
         }
       ]  
@@ -1652,31 +1898,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "5",
+          "investmentScore": "4",
           "description": "만 리 먼 길, 한 걸음부터. 차근차근 밟아 나가는 격이니, 농사짓는 상이다." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "3",
           "description": "곤궁하나 바르게 힘쓰고, 하늘에 기도하면 열 벗이 와서 돕는다." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "권력을 쓸 때는 공을 바라지 않고 의로운 데 쓰면 이로우나, 바르지 않으면 흉하다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "바람 따라 움직이는 상이다. 이주할 때는 땅을 가려, 중도를 잃지 마라." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "은혜를 베풀어 칭송받는다. 재물신이 문에 드니, 큰 부자도 부럽지 않네." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "망망대해에 풍파를 만난 외로운 배다. 들통난 도적질을 덮으려고 위태롭게 움직인다." 
         }
       ]  
@@ -1692,31 +1944,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "3",
           "description": "저녁 숲에는 왜 들어가는가? 힘도 없이 나아가니 무지라 하네. 옳은 일을 하려면, 힘부터 길러라." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "위험 중에 편안함이다. 믿음을 지켜 바르게 나아가니, 모두의 힘으로 큰일을 성취한다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "비록 곤경에 처했으나, 내 마음은 결연하다. 사사로움에 매이지 말고 바르게 결단하라." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "충언을 믿지 않고 머뭇거리니, 매사 이루어지지 않는다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "심지를 굳건히 하고, 소인배를 멀리하라. 옳은 일을 머뭇거리면 안 된다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "가을바람 소슬한 아홉 골짜기에 세상 길이 험난하다. 갈 곳도 호소할 데도 없는 신세다." 
         }
       ]  
@@ -1732,31 +1990,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "4",
           "description": "의지할 곳 없는 상, 마른 돼지가 조급히 날뛰는 상이니 흉하다. 만사 조심해라." 
         },
         {
           "position": "구이",
           "score": "5", 
+          "investmentScore": "3",
           "description": "푸른 바다에서 고기를 낚으니, 기쁨은 잠시, 이를 탐내는 자가 있으니, 많이 삼가라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "1",
           "description": "바쁜 객이 나루터에 이르니 배가 없고, 처지는 좌불안석이다. 납치당한 꼴. 조심하면 벗어날 수도 있다." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "어그러진 때에 일을 경영하니, 수고로우나 공이 없다. 도와줄 사람도 없다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "밝음을 머금었다. 선을 사방에 쌓으니, 하늘이 도와 창성하리라." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "분수를 몰라 장군 행세하며 궁한 데로 나아가니, 누구를 탓하리오. 사람마다 나를 못살게 군다." 
         }
       ]  
@@ -1772,31 +2036,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "1",
           "description": "막다른 길에서 새로운 활로를 얻는다. 짝을 바꾼다. 당을 바꾼다. 내 갈 길을 간다." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "정성 들여 기도한다. 이웃끼리 서로 이끌어 준다. 변치 않는 마음을 가져라." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "지혜는 짧고 도모하는 일은 많으니, 일마다 졸작이고 경솔하다. 윗사람의 도움을 청해라." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "스스로 족함을 알고 지금 위치를 지키면 평생 편안하다. 욕심 내지 마라." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "5",
           "description": "비록 햇빛은 밝지 못하나, 냇가의 풀이 푸르다. 높은 자리에 맞는 믿음과 정직을 보여라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "제 잇속만 챙겨 배신했다가, 외롭고 괴로운 신세가 됐다. 분수를 벗어나 근심이다." 
         }
       ]  
@@ -1812,31 +2082,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "5",
+          "investmentScore": "5",
           "description": "소년 풍상을 겪은 몸이 믿음으로 위를 따르니, 운이 맞아 나날이 발전한다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "이름을 등용문에 거니, 먼저 천하나 나중 귀하고, 뜻이 다시 열린다. 기도하면 기쁜 일이 온다." 
         },
         { 
           "position": "구삼", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "거칠 것 없는 상승의 길에 콧노래가 절로 난다. 의심 없이 가라. 매사 순성이다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "서산에 기도하면, 신명이 감통한다. 지극 정성이면 하늘도 감동한다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "용이 머리에 뿔이 나, 승천하는 상. 쌓은 공덕이 있으면, 벼슬길에 오름이라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "석양에 산길이 아득하고 어두우니, 욕심을 버리지 않으면 후회한다. 지나치면 위험하다." 
         }
       ]  
@@ -1852,31 +2128,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "4",
           "description": "풍랑을 만난 배다. 몸이 3년을 곤궁하니, 어찌 힘든 처지를 다 말하리오." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "구름이 걷히고 달을 보는 형국이다. 살 만해진다. 취직한다. 반가운 연락이 온다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "만경창파에 일엽편주로다. 죽을 날 받아 놨으니, 구할 도리도 없다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "1",
           "description": "날은 저물고 갈 길은 먼데, 어두운 길에 수레는 왜 이리 더딘가? 병점이면 못 고친다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "궁한 사람의 말은 믿을 수 없다. 정성으로 기도하면, 먼저 곤하고 나중에 여유롭다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "실타래가 천 갈래 만 갈래 꼬였으니, 어찌 풀꼬. 죽을 각오로 빠져나와야 산다." 
         }
       ]  
@@ -1892,31 +2174,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "3",
           "description": "물이 썩었다. 새 우물을 파야 한다. 가난한 집에 몸까지 곤하다. 새 활력이 필요하다." 
         },
         {
           "position": "구이",
-          "score": "2", 
+          "score": "2",
+          "investmentScore": "3",
           "description": "천금을 흩어 버리고, 음양이 불화함에, 함께 할 사람 없다. 깨진 독에 물 붓기다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "1",
           "description": "자격은 있지만 써줄 사람이 없다. 때가 되면 써줄 사람이 나타나 함께 복을 받는다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "옛것을 버리고 새것을 취한다. 제가(齊家)의 방법은 수신(修身)이 먼저다. 고쳐라. 혁신하라. 수리하라." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "2",
           "description": "하는 일마다 때를 만나니, 만사가 뜻과 같다. 하늘이 돕는 게 아니면 무엇이겠는가?" 
         },
         { 
           "position": "상육", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "백 사람이 농사지음에 창고가 가득하다. 찬 골짜기에 봄이 오니 만화방창(萬和芳暢)이다." 
         }
       ]  
@@ -1932,31 +2220,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "1",
           "description": "장차 좋은 일을 위해 굳은 마음으로 지킨다. 아직 이르다. 을축년에 도모해라." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "천지화합으로 만물이 새로 나니, 드디어 때가 왔다. 고쳐 추진하라. 전진한다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "신중하라! 세 번 실상을 잘 들여다보며 고쳐라. 개혁의 속도 조절이 필요하다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "2",
           "description": "탁류가 휩쓸고 가니, 물이 저절로 맑다. 단점을 버리고 장점을 취하니, 배는 잘 된다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "비룡재천(飛龍在天). 한번 세상이 새로워졌으니, 과감하게 고칠 건 고쳐라." 
         },
         { 
           "position": "상육", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "좋은 기회를 놓치지 말고, 빨리하라. 눈치 보며, 말로만 떠드는 놈은 소인배다. 군자답게 진심으로 고쳐라." 
         }
       ]  
@@ -1972,31 +2266,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "동풍에 눈 녹고 새싹 돋으니, 쌀을 일어 솥에 넣는 상이다. 농토 확장, 자녀 탄생, 새출발을 의미한다." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "곁에 있는 사람이 나에게 기댐에 호사다마(好事多魔)이다. 행실을 삼가라. 우환이 염려된다." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "사방에 이로움 없으니, 누구와 함께할꼬? 처음 어려우나 나중은 풀린다. 옮겨 간다." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "주변의 허물로 내게 손해가 오고 난처하다. 어두운 밤에 허공을 바라보며, 불안해하는 상이다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "용광로의 쇠가 큰 그릇 되고, 주마가편(走馬加鞭)이니, 공과 이익이 저절로 이뤄진다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "보배 솥에 신선의 약을 달이는 상이다. 함께 베풀며, 이 행복을 스스로 즐긴다." 
         }
       ]  
@@ -2012,31 +2312,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "4",
           "description": "죽을 땅에 빠졌다가 살아나는 형상이다. 먼저 놀라지만, 나중에 웃는다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "난리에 휘말려 재물 잃고 욕심을 버림이요, 산에 올라 7일을 기다림에, 만사가 회복된다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "흉신이 숨어 움직이니, 일은 안되고, 수고롭고, 불안하다. 정신 차려라! 다시 일어나라!" 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "움직이면 수렁에 빠지고, 캄캄한 밤에 길도 없다. 힘내라. 의기소침 금지!" 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "일도 탈도 많은 중에 어려움 헤치고 남을 도와 동분서주하니, 나도 살고, 남도 살리네." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "흉신이 서로 해치니, 화(火)가 성하고 목(木)이 쇠함이다. 불이 내게 번지는 상이다. 정신 차리고 돕는 사람 말 잘 들으라." 
         }
       ]  
@@ -2052,31 +2358,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "산길 물길을 어찌 헤쳐 나갈꼬? 본분을 지키며 바르게 때를 기다림이 최고의 수이다." 
         },
         {
           "position": "육이",
           "score": "2", 
+          "investmentScore": "3",
           "description": "움직이는 것만이 능사가 아니다. 지금처럼 계속 해도 될지 잘 헤아려 봐라." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "1",
           "description": "해는 지고 길은 머니, 달은 언제 나올꼬? 일마다 헛수고니, 어디에도 이익이 없다." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "한번 기쁘고 한번 슬프다. 그칠 바를 아니 몸도 마음도 편하다. 무슨 걱정 있으랴?" 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "하늘이 일을 내리고, 나로 말미암아 공을 이루니, 지성이면 안 될 일이 없다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "돌성(石城) 돌아오는 길에 은인이 돕고, 위아래가 하나 되니, 기쁜 소리 드높다." 
         }
       ]  
@@ -2092,31 +2404,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "4",
           "description": "화살이 과녁을 벗어나면, 돌이켜 스스로를 반성하라. 순리를 따르라. 아이는 물 조심." 
         },
         {
           "position": "육이",
           "score": "5", 
+          "investmentScore": "4",
           "description": "경사다. 잔치를 벌인다. 남녀가 보금자리를 마련한다. 관록과 재물이 따른다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "하루살이 인생, 아침에 저녁 걱정 않는데, 바람 파도가 치니 시비가 가려진다. 가출, 불임, 도난의 상이다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "큰 기러기가 나무에 앉음에, 좋은 가지를 선택하니, 길흉과 이해는 모두 나의 지혜에 달렸다. 점차 좋아진다. 공손하면 좋다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "머리에 계수나무 꽂고, 맑은 이름이 널리 퍼지니, 장삿길에 멀리 나서면 크게 번다." 
         },
         { 
           "position": "상구", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "우물 안 고기가 바다로 가니 의기양양, 큰 기러기 하늘로 오르니 위풍당당하다. 노력 끝에 성공한다." 
         }
       ]  
@@ -2132,31 +2450,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "3",
           "description": "좋은 신부감이 한 가지 약점 때문에 남의 소실로 가는 상이다. 겸양한 선비가 자기 공(功)을 남에게 돌리는 격이다." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "이랬다저랬다 하지 않으려면, 마음을 도 닦는 사람처럼 써야 할 처지다. 밑지는 결혼에 자꾸만 흔들린다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "천한 인생, 맘대로 할 수도 없네. 분수를 알아 욕됨은 면하니, 먼저 잃고, 나중 구한다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "긴 길이 막힘없거늘, 때를 놓침을 걱정 마라. 쏜 화살이 지는 해를 맞추니, 마침내 큰 공을 이룬다. 골드미스가 결혼하는 상이다." 
         },
         { 
           "position": "육오", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "평강공주가 바보온달에게 시집가는 상이다. 훌륭한 내조로 행복한 가정을 이룬다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "바람난 여자가 파혼당하는 상이다. 헛되이 얽히니 다툼, 고립, 빈털터리 신세다." 
         }
       ]  
@@ -2172,31 +2496,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "4",
           "description": "평등한 짝을 만나니, 하는 일이 즐겁고, 정이 두텁다. 약속을 지켜라. 자주 만나라." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "5",
           "description": "윗사람이 나를 몰라보아, 일이 꼬인다. 나를 내세우지 마라. 신의를 갖고 충실하면 헛되지 않다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "새의 날개가 꺾이고, 봄볕에도 꽃이 안 피는 상이다. 매사 잘 안 풀린다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "운수가 나쁘니 노력해도 이루지 못한다. 뜻 맞는 벗을 만나면, 어려움에서 벗어난다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "문화 예술 분야가 좋다. 화려하다. 남의 좋은 말을 새겨들어라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "5",
           "description": "슬픈 태양이요, 지는 꽃이다. 풍성함이 이제 숨는다. 천지가 넓으나, 몸 둘 곳 없다." 
         }
       ]  
@@ -2212,31 +2542,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "4",
           "description": "운이 막히고 때가 어긋났으니, 근신해야 재앙을 면한다. 욕심 내면 소탐대실이다." 
         },
         {
           "position": "육이",
           "score": "4", 
+          "investmentScore": "5",
           "description": "계절을 골라, 바람과 구름, 풍광을 즐기는 화려한 여행의 상이다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "패전지장에, 성은 무너져 터만 남았으니, 땅을 치고 하늘에 울부짖도다. 여행길 사고의 상이다." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "3",
           "description": "시운을 만나지 못했으니, 일은 뜻대로 안 되고, 마음만 불안하다. 불안한 여행이다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "달이 다시 차고, 먼지 낀 거울을 닦으니, 재주를 품고 숨어 지내다가, 시운을 만난 격이다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "시든 꽃이 가을을 만났으니 떨어짐이 당연하다. 학이 외로운 소나무에 깃드니, 봄볕과는 무관하다. 춥고 쓸쓸하다." 
         }
       ]  
@@ -2252,31 +2588,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "마음이 약하고, 결단력이 없다. 비장한 각오로 용기를 내야 헛수고를 면한다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "3",
           "description": "수양버들 늘어진 봄 동산에서 지성으로 구하면 뜻을 이룬다. 신에게 비는 무당의 상이다." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "춘래불사춘(春來不似春). 봄인 듯 아닌 듯 오락가락 갈피를 못 잡는다." 
         },
         { 
           "position": "육사", 
           "score": "5", 
+          "investmentScore": "4",
           "description": "태평세월 잔치 자리에 사냥의 공으로 임금에게 귀한 물건 3가지를 얻는다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "4",
           "description": "옛것을 고치고 새것을 따르니, 동원에 봄이 왔다. 경일(庚日) 전후 6일이 길하다. 처음은 없으나 끝은 아름답다." 
         },
         { 
           "position": "상구", 
-          "score": "2", 
+          "score": "2",
+          "investmentScore": "3",
           "description": "밤 강에 배가 못 뜨고, 때도 맞지 않으니, 일이 허무로 돌아간다. 추하게 굴다가 모든 걸 잃는다." 
         }
       ]  
@@ -2292,31 +2634,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "4",
+          "investmentScore": "4",
           "description": "금성철벽에 상하 동심이고, 가을 들판에 곡식 익음에, 식량창고가 가득한 상이다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "4",
           "description": "우물을 파서 샘물을 얻고, 곤란함 뒤에 태평함이 온다. 말 한마디에 모두 움직인다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "입이 화를 불렀으니, 송사를 면하기 어렵다. 이리저리 붙어 알랑대지 마라." 
         },
         { 
           "position": "구사", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "남북으로 길이 나뉨에 갈 곳을 모르니, 어찌할꼬? 분별 있게 처신하고 판단을 잘하면 좋은 일이 있다." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "살얼음을 디디고, 호랑이 꼬리를 밟은 것 같다. 믿음을 가지고 바르게 나아가라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "힘든데, 헛일이기까지 하니, 어찌하리오? 억지로 기뻐하고자 하니, 편안치 못하다." 
         }
       ]  
@@ -2332,31 +2680,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "4",
+          "investmentScore": "4",
           "description": "큰 추위가 가면 반드시 봄이 온다. 비록 험한 처지에 있으나, 실력자가 도와 이끈다." 
         },
         {
           "position": "구이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "눈코 뜰 새 없이 열정적으로 일한다. 내가 찾아가 벗을 얻으니, 일이 성사된다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "속에 얽힌 것을 밖으로 푼다. 동남방으로 간다. 이해가 분분함에, 홀로 단 것을 취한다." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "1",
           "description": "옛것을 뒤집어 새것을 지음에, 하늘이 응하여 도우니, 공이 높고 업이 크다." 
         },
         { 
           "position": "구오", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "강가에 초록빛이 더욱 아름답고, 가정이 화합하니, 길한 조짐이 가득하다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "눈보라 외로운 소나무에 심정이 가련하니, 비록 차가운 형상이나, 신수는 태평하다. 손해날 일, 위험한 것은 빨리 털어버려라." 
         }
       ]  
@@ -2372,31 +2726,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "1",
           "description": "지금은 막히는 때다. 삼가 행하지 말고, 백번 참아라. 가만히 있어라." 
         },
         {
           "position": "구이",
           "score": "2", 
+          "investmentScore": "4",
           "description": "새벽닭이 울지 않으니, 때를 몰라 아까운 기회를 놓친다. 복운에도 나아가기 어렵다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "절도가 없고 행함이 뜬구름 같아, 기회가 이미 지나갔다. 누구를 원망하리오?" 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "윗사람의 지시를 잘 처리하여 위와 아래가 서로 화합 협력하니, 일이 잘 풀린다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "적당한 때를 만나 일이 잘 진행된다. 하는 일마다 칭찬을 듣는다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "모든 것이 바른길을 벗어났다. 때는 이미 늦었다. 지나친 절제는 오래가지 못함이라." 
         }
       ]  
@@ -2412,31 +2772,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "3",
+          "investmentScore": "1",
           "description": "양자택일했으면, 그 마음 변치 말고 가라. 옮겨 가면, 거기가 도리어 험할까 두렵다." 
         },
         {
           "position": "구이",
           "score": "5", 
+          "investmentScore": "4",
           "description": "어미가 울고 새끼가 화답함에 믿음의 느낌이 넘친다. 좋은 벼슬 스스로 얽힘에 소리와 기운이 서로 응한다." 
         },
         { 
           "position": "육삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "서로 믿지 못하니 싸움이 난다. 두 마음, 다르니 분열만 짓네." 
         },
         { 
           "position": "육사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "동류를 끊고 의리를 좇음에 충선스런 마음을 알겠다. 술해년월에 반드시 기회가 있다." 
         },
         { 
           "position": "구오", 
           "score": "5", 
+          "investmentScore": "2",
           "description": "복사꽃 대나무에 붙임에, 사람으로 인해 성사되고, 앉아서 대군을 진압하니, 천하통일이다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "2",
           "description": "소리만 요란하여 사람들이 놀랄 뿐, 실속은 없다. 분수를 넘으니 이루어지는 일이 없다." 
         }
       ]  
@@ -2452,31 +2818,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "2",
+          "investmentScore": "3",
           "description": "변방의 늙은이가 말을 잃고, 주작이 강에 뛰어드는 격이다. 때를 못 만남에 일을 감당치 못한다. 날개도 안 자랐는데 날려고 하는 상이다." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "3",
           "description": "일을 순리로 풀어라. 아랫사람을 먼저 만나고 윗사람을 만나라. 지나친 행동은 금물." 
         },
         { 
           "position": "구삼", 
           "score": "2", 
+          "investmentScore": "4",
           "description": "오랑캐가 침입함에 막을 길이 없다. 여색을 삼가라. 반드시 흉한 손님을 만난다." 
         },
         { 
           "position": "구사", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "분수를 지키고 지나침을 자제하라. 그러나 꼼짝 않는 것은 변통성이 없음이라." 
         },
         { 
           "position": "육오", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "믿음과 덕이 있으니 길하다. 어려움을 건너 이로우니, 내 하기에 달렸다. 나를 낮추고, 실력자를 발굴해 써라." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "새가 날다가 그물에 걸린 격이다. 욕심이 너무 지나쳤다. 도와줄 이도 없으니, 이제 끝이란 말인가?" 
         }
       ]  
@@ -2492,31 +2864,37 @@ const hexagrams = {
         {
           "position": "초구",
           "score": "2",
+          "investmentScore": "2",
           "description": "재물이 내 방에 있음에, 나가면 공이 없다. 기운을 뺏기는 중이니, 굳게 지키고 비우지 마라. 일 끝났으니, 그냥 쉬어라." 
         },
         {
           "position": "육이",
           "score": "3", 
+          "investmentScore": "4",
           "description": "잃었던 것을 7일 만에 찾는 상이다. 이번 일은 끝났으니, 쉬면서 때를 기다려라." 
         },
         { 
           "position": "구삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "전쟁에 나가 3년간 고생하는 상이다. 무능한 사람, 속 좁은 사람, 애송이에게 일을 맡기지 마라." 
         },
         { 
           "position": "육사", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "유비무환이다. 풍랑을 만난 일엽편주이니 잠시도 방심하면, 한 번 실수로 끝이다." 
         },
         { 
           "position": "구오", 
           "score": "3", 
+          "investmentScore": "2",
           "description": "달이 이지러지고, 거울에 먼지가 끼니, 세월을 누가 이기리오? 같은 새벽은 다시 오지 않는 것을. 직에서 물러나는 때다." 
         },
         { 
           "position": "상육", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "말을 탔으나 길을 잃음에 어디로 가리오? 못 건널 강을 건너려다 그 물에 빠졌으니, 누구를 탓하리오?" 
         }
       ]  
@@ -2532,31 +2910,37 @@ const hexagrams = {
         {
           "position": "초육",
           "score": "3",
+          "investmentScore": "3",
           "description": "하는 일마다 낯설고 미비하니, 이런 상태로 나아감은 무식해서 용감한 것이다." 
         },
         {
           "position": "구이",
           "score": "4", 
+          "investmentScore": "5",
           "description": "집에 거하며 몸을 닦음에, 화한 기운이 문에 이르니, 비록 미제이나, 호운이 오리라." 
         },
         { 
           "position": "육삼", 
           "score": "3", 
+          "investmentScore": "4",
           "description": "재주 없음이 아니라, 때가 아님이다. 혹 뛰었다가 제자리로 돌아오니, 스스로 시험해 봄이다. 이제 힘들어도 할만하다." 
         },
         { 
           "position": "구사", 
           "score": "4", 
+          "investmentScore": "3",
           "description": "남자는 여자에게 주권을 빼앗긴다. 3년의 긴 싸움을 이기니, 비로소 때와 운길이 열린다." 
         },
         { 
           "position": "육오", 
           "score": "5", 
+          "investmentScore": "3",
           "description": "동쪽 하늘 떠오르는 태양에 재와 복이 생하고, 부와 귀가 높아진다. 남자보다 여자면 더 좋다." 
         },
         { 
           "position": "상구", 
           "score": "2", 
+          "investmentScore": "3",
           "description": "끝나고 다시 시작하는 종즉유시(終則有始)이다. 때가 왔다. 신중하게 일어서라. 낮은 데서 높은 데로 오르면 모두가 우러러본다. 과음하면 실수한다." 
         }
       ]  
@@ -2586,7 +2970,7 @@ exports.handler = async function (event, context) {
     // 4. 지괘 찾기
     const derivedHex = hexagramsArr.find((hex) => hex.code.trim() === derivedCode);
 
-    // 5. 결과 반환 (score를 명시적으로 포함)
+    // 5. 결과 반환 (score와 investmentScore 모두 포함)
     return {
       statusCode: 200,
       headers: {
@@ -2599,14 +2983,15 @@ exports.handler = async function (event, context) {
           unicode: mainHex.unicode,
           code: mainHex.code,
           description: mainHex.description,
-          // 데이터에 score가 있으면 전달, 없으면 null
-          score: mainHex.score ?? null
+          score: mainHex.score ?? null,
+          investmentScore: mainHex.investmentScore ?? null
         },
         changingLine: {
-          position: changingLine.position, // 예: "초구"
+          position: changingLine.position,
           description: changingLine.description,
           score: changingLine.score ?? null,
-          index: changingLineIndex // 필요시 클라이언트에서 활용
+          investmentScore: changingLine.investmentScore ?? null,
+          index: changingLineIndex
         },
         derivedHex: derivedHex
           ? {
@@ -2615,13 +3000,15 @@ exports.handler = async function (event, context) {
               unicode: derivedHex.unicode,
               code: derivedHex.code,
               description: derivedHex.description,
-              score: derivedHex.score ?? null
+              score: derivedHex.score ?? null,
+              investmentScore: derivedHex.investmentScore ?? null
             }
           : {
               title: "지괘 미검색",
               code: derivedCode,
               description: "해당 지괘의 데이터가 DB에 존재하지 않습니다.",
-              score: null
+              score: null,
+              investmentScore: null
             }
       })
     };

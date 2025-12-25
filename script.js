@@ -2,7 +2,7 @@ document.getElementById("btn").addEventListener("click", async () => {
   const output = document.getElementById("output");
   output.innerHTML = "점치는 중...";
 
-  // 숫자 점수를 등급 문자열로 변환
+  // 숫자 점수를 등급 문자열로 변환 (길흉/주식운 공통)
   const scoreToLabel = (s) => {
     const n = Number(s);
     switch (n) {
@@ -35,9 +35,12 @@ document.getElementById("btn").addEventListener("click", async () => {
                 <div>${scoreToLabel(mainHex.score)}</div>
                 <div>${mainHex.description}</div>`;
 
-    // 동효 출력
+    // 동효 출력 (길흉 + 주식운 함께 표시)
     html += `<h3>동효</h3>
-             <div class="line">${changingLine.position} - ${scoreToLabel(changingLine.score)}</div>
+             <div class="line">
+               ${changingLine.position} - ${scoreToLabel(changingLine.score)} 
+               / 주식운: ${scoreToLabel(changingLine.investmentScore)}
+             </div>
              <div>${changingLine.description}</div>`;
 
     // 지괘 출력
